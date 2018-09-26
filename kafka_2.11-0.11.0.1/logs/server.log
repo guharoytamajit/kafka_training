@@ -1,0 +1,437 @@
+[2018-09-20 15:13:32,684] INFO Reading configuration from: config\zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2018-09-20 15:13:32,687] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2018-09-20 15:13:32,687] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2018-09-20 15:13:32,688] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2018-09-20 15:13:32,688] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2018-09-20 15:13:32,711] INFO Reading configuration from: config\zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2018-09-20 15:13:32,712] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2018-09-20 15:13:32,857] INFO Server environment:zookeeper.version=3.4.10-39d3a4f269333c922ed3db283be479f9deacaa0f, built on 03/23/2017 10:13 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 15:13:32,858] INFO Server environment:host.name=tamajroy.in.ibm.com (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 15:13:32,859] INFO Server environment:java.version=1.8.0_51 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 15:13:32,860] INFO Server environment:java.vendor=Oracle Corporation (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 15:13:32,860] INFO Server environment:java.home=C:\tamajit\programs\jdk1.8.0_51\jre (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 15:13:32,861] INFO Server environment:java.class.path=C:\tamajit\programs\jasmin-2.4\jasmin.jar;;C:\Kafka\kafka_2.11-0.11.0.1\libs\aopalliance-repackaged-2.5.0-b05.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\argparse4j-0.7.0.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\commons-lang3-3.5.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\connect-api-0.11.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\connect-file-0.11.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\connect-json-0.11.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\connect-runtime-0.11.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\connect-transforms-0.11.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\guava-20.0.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\hk2-api-2.5.0-b05.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\hk2-locator-2.5.0-b05.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\hk2-utils-2.5.0-b05.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jackson-annotations-2.8.5.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jackson-core-2.8.5.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jackson-databind-2.8.5.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jackson-jaxrs-base-2.8.5.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jackson-jaxrs-json-provider-2.8.5.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jackson-module-jaxb-annotations-2.8.5.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\javassist-3.21.0-GA.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\javax.annotation-api-1.2.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\javax.inject-1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\javax.inject-2.5.0-b05.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\javax.servlet-api-3.1.0.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\javax.ws.rs-api-2.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jersey-client-2.24.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jersey-common-2.24.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jersey-container-servlet-2.24.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jersey-container-servlet-core-2.24.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jersey-guava-2.24.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jersey-media-jaxb-2.24.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jersey-server-2.24.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jetty-continuation-9.2.15.v20160210.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jetty-http-9.2.15.v20160210.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jetty-io-9.2.15.v20160210.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jetty-security-9.2.15.v20160210.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jetty-server-9.2.15.v20160210.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jetty-servlet-9.2.15.v20160210.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jetty-servlets-9.2.15.v20160210.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jetty-util-9.2.15.v20160210.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jopt-simple-5.0.3.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka-clients-0.11.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka-log4j-appender-0.11.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka-streams-0.11.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka-streams-examples-0.11.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka-tools-0.11.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka_2.11-0.11.0.1-javadoc.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka_2.11-0.11.0.1-javadoc.jar.asc;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka_2.11-0.11.0.1-scaladoc.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka_2.11-0.11.0.1-scaladoc.jar.asc;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka_2.11-0.11.0.1-sources.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka_2.11-0.11.0.1-sources.jar.asc;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka_2.11-0.11.0.1-test-sources.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka_2.11-0.11.0.1-test-sources.jar.asc;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka_2.11-0.11.0.1-test.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka_2.11-0.11.0.1-test.jar.asc;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka_2.11-0.11.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka_2.11-0.11.0.1.jar.asc;C:\Kafka\kafka_2.11-0.11.0.1\libs\log4j-1.2.17.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\lz4-1.3.0.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\maven-artifact-3.5.0.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\metrics-core-2.2.0.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\osgi-resource-locator-1.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\plexus-utils-3.0.24.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\reflections-0.9.11.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\rocksdbjni-5.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\scala-library-2.11.11.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\scala-parser-combinators_2.11-1.0.4.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\slf4j-api-1.7.25.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\slf4j-log4j12-1.7.25.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\snappy-java-1.1.2.6.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\validation-api-1.1.0.Final.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\zkclient-0.10.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\zookeeper-3.4.10.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 15:13:32,868] INFO Server environment:java.library.path=C:\tamajit\programs\jdk1.8.0_51\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\tamajit\programs\nvm;C:\tamajit\programs\jdk1.8.0_51\bin;C:\tamajit\programs\perl\site\bin;C:\tamajit\programs\perl\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\IBM\Personal Communications\;C:\Program Files (x86)\IBM\Trace Facility\;C:\Program Files (x86)\IBM\Mobility Client\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\tamajit\programs\jdk1.8.0_51/bin;C:\tamajit\programs\apache-maven-3.0.4\bin;C:\tamajit\programs\apache-ant-1.8.4\bin;C:\tamajit\programs\scala2.11\bin;C:\tamajit\programs\Git\cmd;C:\tamajit\programs\git_extension\;C:\tamajit\programs\groovy-2.4.11\bin;C:\tamajit\programs\node-v8.10.0-win-x64;C:\Users\IBM_ADMIN\AppData\Local\Programs\Python\Python35;C:\Users\IBM_ADMIN\AppData\Local\Programs\Python\Python35\Scripts;C:\tamajit\programs\pig-0.16.0/bin;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Scripts;C:\Program Files\Amazon\AWSCLI\;C:\tamajit\programs\code\bin;C:\Users\IBM_ADMIN\Downloads\path;C:\Program Files\TortoiseSVN\bin;C:\tamajit\programs\mysql-5.5.60-winx64\bin;;C:\tamajit\programs\jdk1.8.0_51\bin;C:\tamajit\programs\Docker Toolbox;C:\tamajit\programs\go-ipfs;C:\tamajit\programs\gradle-4.6\bin;C:\Users\IBM_ADMIN\Desktop\UniversalConverter\scripts;C:\tamajit\programs\spring-2.0.1.RELEASE\bin;C:\tamajit\programs\spark-2.1.1-bin-hadoop2.7\bin;C:\tamajit\programs\graphviz\bin;C:\Program Files (x86)\Google\Chrome\Application;C:\Users\IBM_ADMIN\AppData\Local\Yarn\bin;C:\tamajit\programs\apache-jmeter-4.0\bin;. (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 15:13:32,871] INFO Server environment:java.io.tmpdir=C:\Users\IBM_AD~1\AppData\Local\Temp\ (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 15:13:32,871] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 15:13:32,872] INFO Server environment:os.name=Windows 7 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 15:13:32,872] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 15:13:32,873] INFO Server environment:os.version=6.1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 15:13:32,873] INFO Server environment:user.name=ibm (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 15:13:32,874] INFO Server environment:user.home=C:\Users\IBM_ADMIN (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 15:13:32,875] INFO Server environment:user.dir=C:\Kafka\kafka_2.11-0.11.0.1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 15:13:32,915] INFO tickTime set to 3000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 15:13:32,915] INFO minSessionTimeout set to -1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 15:13:32,916] INFO maxSessionTimeout set to -1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 15:13:33,020] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-09-20 15:23:15,861] INFO Accepted socket connection from /127.0.0.1:56858 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-09-20 15:23:15,876] INFO Client attempting to establish new session at /127.0.0.1:56858 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 15:23:15,876] INFO Creating new log file: log.1 (org.apache.zookeeper.server.persistence.FileTxnLog)
+[2018-09-20 15:23:15,892] INFO Established session 0x165f65cf9b20000 with negotiated timeout 30000 for client /127.0.0.1:56858 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 15:32:35,898] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 1
+	broker.id.generation.enable = true
+	broker.rack = null
+	compression.type = producer
+	connections.max.idle.ms = 600000
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 300000
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 0.11.0-IV2
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,TRACE:TRACE,SASL_SSL:SASL_SSL,PLAINTEXT:PLAINTEXT
+	listeners = PLAINTEXT://:9091
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = KData/log1
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.format.version = 0.11.0-IV2
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 1440
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	port = 9092
+	principal.builder.class = class org.apache.kafka.common.security.auth.DefaultPrincipalBuilder
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = null
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2018-09-20 15:32:36,023] INFO starting (kafka.server.KafkaServer)
+[2018-09-20 15:32:36,023] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2018-09-20 15:32:36,054] INFO Starting ZkClient event thread. (org.I0Itec.zkclient.ZkEventThread)
+[2018-09-20 15:32:36,069] INFO Client environment:zookeeper.version=3.4.10-39d3a4f269333c922ed3db283be479f9deacaa0f, built on 03/23/2017 10:13 GMT (org.apache.zookeeper.ZooKeeper)
+[2018-09-20 15:32:36,069] INFO Client environment:host.name=tamajroy.in.ibm.com (org.apache.zookeeper.ZooKeeper)
+[2018-09-20 15:32:36,069] INFO Client environment:java.version=1.8.0_51 (org.apache.zookeeper.ZooKeeper)
+[2018-09-20 15:32:36,069] INFO Client environment:java.vendor=Oracle Corporation (org.apache.zookeeper.ZooKeeper)
+[2018-09-20 15:32:36,069] INFO Client environment:java.home=C:\tamajit\programs\jdk1.8.0_51\jre (org.apache.zookeeper.ZooKeeper)
+[2018-09-20 15:32:36,069] INFO Client environment:java.class.path=C:\tamajit\programs\jasmin-2.4\jasmin.jar;;C:\Kafka\kafka_2.11-0.11.0.1\libs\aopalliance-repackaged-2.5.0-b05.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\argparse4j-0.7.0.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\commons-lang3-3.5.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\connect-api-0.11.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\connect-file-0.11.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\connect-json-0.11.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\connect-runtime-0.11.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\connect-transforms-0.11.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\guava-20.0.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\hk2-api-2.5.0-b05.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\hk2-locator-2.5.0-b05.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\hk2-utils-2.5.0-b05.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jackson-annotations-2.8.5.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jackson-core-2.8.5.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jackson-databind-2.8.5.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jackson-jaxrs-base-2.8.5.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jackson-jaxrs-json-provider-2.8.5.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jackson-module-jaxb-annotations-2.8.5.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\javassist-3.21.0-GA.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\javax.annotation-api-1.2.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\javax.inject-1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\javax.inject-2.5.0-b05.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\javax.servlet-api-3.1.0.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\javax.ws.rs-api-2.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jersey-client-2.24.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jersey-common-2.24.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jersey-container-servlet-2.24.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jersey-container-servlet-core-2.24.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jersey-guava-2.24.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jersey-media-jaxb-2.24.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jersey-server-2.24.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jetty-continuation-9.2.15.v20160210.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jetty-http-9.2.15.v20160210.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jetty-io-9.2.15.v20160210.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jetty-security-9.2.15.v20160210.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jetty-server-9.2.15.v20160210.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jetty-servlet-9.2.15.v20160210.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jetty-servlets-9.2.15.v20160210.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jetty-util-9.2.15.v20160210.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\jopt-simple-5.0.3.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka-clients-0.11.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka-log4j-appender-0.11.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka-streams-0.11.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka-streams-examples-0.11.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka-tools-0.11.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka_2.11-0.11.0.1-javadoc.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka_2.11-0.11.0.1-javadoc.jar.asc;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka_2.11-0.11.0.1-scaladoc.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka_2.11-0.11.0.1-scaladoc.jar.asc;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka_2.11-0.11.0.1-sources.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka_2.11-0.11.0.1-sources.jar.asc;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka_2.11-0.11.0.1-test-sources.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka_2.11-0.11.0.1-test-sources.jar.asc;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka_2.11-0.11.0.1-test.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka_2.11-0.11.0.1-test.jar.asc;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka_2.11-0.11.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\kafka_2.11-0.11.0.1.jar.asc;C:\Kafka\kafka_2.11-0.11.0.1\libs\log4j-1.2.17.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\lz4-1.3.0.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\maven-artifact-3.5.0.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\metrics-core-2.2.0.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\osgi-resource-locator-1.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\plexus-utils-3.0.24.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\reflections-0.9.11.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\rocksdbjni-5.0.1.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\scala-library-2.11.11.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\scala-parser-combinators_2.11-1.0.4.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\slf4j-api-1.7.25.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\slf4j-log4j12-1.7.25.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\snappy-java-1.1.2.6.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\validation-api-1.1.0.Final.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\zkclient-0.10.jar;C:\Kafka\kafka_2.11-0.11.0.1\libs\zookeeper-3.4.10.jar (org.apache.zookeeper.ZooKeeper)
+[2018-09-20 15:32:36,085] INFO Client environment:java.library.path=C:\tamajit\programs\jdk1.8.0_51\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\tamajit\programs\nvm;C:\tamajit\programs\jdk1.8.0_51\bin;C:\tamajit\programs\perl\site\bin;C:\tamajit\programs\perl\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\IBM\Personal Communications\;C:\Program Files (x86)\IBM\Trace Facility\;C:\Program Files (x86)\IBM\Mobility Client\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\tamajit\programs\jdk1.8.0_51/bin;C:\tamajit\programs\apache-maven-3.0.4\bin;C:\tamajit\programs\apache-ant-1.8.4\bin;C:\tamajit\programs\scala2.11\bin;C:\tamajit\programs\Git\cmd;C:\tamajit\programs\git_extension\;C:\tamajit\programs\groovy-2.4.11\bin;C:\tamajit\programs\node-v8.10.0-win-x64;C:\Users\IBM_ADMIN\AppData\Local\Programs\Python\Python35;C:\Users\IBM_ADMIN\AppData\Local\Programs\Python\Python35\Scripts;C:\tamajit\programs\pig-0.16.0/bin;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Scripts;C:\Program Files\Amazon\AWSCLI\;C:\tamajit\programs\code\bin;C:\Users\IBM_ADMIN\Downloads\path;C:\Program Files\TortoiseSVN\bin;C:\tamajit\programs\mysql-5.5.60-winx64\bin;;C:\tamajit\programs\jdk1.8.0_51\bin;C:\tamajit\programs\Docker Toolbox;C:\tamajit\programs\go-ipfs;C:\tamajit\programs\gradle-4.6\bin;C:\Users\IBM_ADMIN\Desktop\UniversalConverter\scripts;C:\tamajit\programs\spring-2.0.1.RELEASE\bin;C:\tamajit\programs\spark-2.1.1-bin-hadoop2.7\bin;C:\tamajit\programs\graphviz\bin;C:\Program Files (x86)\Google\Chrome\Application;C:\Users\IBM_ADMIN\AppData\Local\Yarn\bin;C:\tamajit\programs\apache-jmeter-4.0\bin;. (org.apache.zookeeper.ZooKeeper)
+[2018-09-20 15:32:36,116] INFO Client environment:java.io.tmpdir=C:\Users\IBM_AD~1\AppData\Local\Temp\ (org.apache.zookeeper.ZooKeeper)
+[2018-09-20 15:32:36,116] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2018-09-20 15:32:36,132] INFO Client environment:os.name=Windows 7 (org.apache.zookeeper.ZooKeeper)
+[2018-09-20 15:32:36,132] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+[2018-09-20 15:32:36,132] INFO Client environment:os.version=6.1 (org.apache.zookeeper.ZooKeeper)
+[2018-09-20 15:32:36,132] INFO Client environment:user.name=ibm (org.apache.zookeeper.ZooKeeper)
+[2018-09-20 15:32:36,147] INFO Client environment:user.home=C:\Users\IBM_ADMIN (org.apache.zookeeper.ZooKeeper)
+[2018-09-20 15:32:36,147] INFO Client environment:user.dir=C:\Kafka\kafka_2.11-0.11.0.1 (org.apache.zookeeper.ZooKeeper)
+[2018-09-20 15:32:36,147] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@635eaaf1 (org.apache.zookeeper.ZooKeeper)
+[2018-09-20 15:32:36,288] INFO Waiting for keeper state SyncConnected (org.I0Itec.zkclient.ZkClient)
+[2018-09-20 15:32:36,288] INFO Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2018-09-20 15:32:36,303] INFO Accepted socket connection from /127.0.0.1:56892 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-09-20 15:32:36,303] INFO Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2018-09-20 15:32:36,303] INFO Client attempting to establish new session at /127.0.0.1:56892 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 15:32:36,319] INFO Established session 0x165f65cf9b20001 with negotiated timeout 6000 for client /127.0.0.1:56892 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 15:32:36,319] INFO Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x165f65cf9b20001, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2018-09-20 15:32:36,319] INFO zookeeper state changed (SyncConnected) (org.I0Itec.zkclient.ZkClient)
+[2018-09-20 15:32:36,381] INFO Got user-level KeeperException when processing sessionid:0x165f65cf9b20001 type:create cxid:0x5 zxid:0x4 txntype:-1 reqpath:n/a Error Path:/brokers Error:KeeperErrorCode = NoNode for /brokers (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 15:32:36,413] INFO Got user-level KeeperException when processing sessionid:0x165f65cf9b20001 type:create cxid:0xb zxid:0x8 txntype:-1 reqpath:n/a Error Path:/config Error:KeeperErrorCode = NoNode for /config (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 15:32:36,444] INFO Got user-level KeeperException when processing sessionid:0x165f65cf9b20001 type:create cxid:0x13 zxid:0xd txntype:-1 reqpath:n/a Error Path:/admin Error:KeeperErrorCode = NoNode for /admin (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 15:32:36,522] INFO Got user-level KeeperException when processing sessionid:0x165f65cf9b20001 type:create cxid:0x1d zxid:0x13 txntype:-1 reqpath:n/a Error Path:/cluster Error:KeeperErrorCode = NoNode for /cluster (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 15:32:36,553] INFO Cluster ID = 5vI54Z08Sging2ysaKSGcw (kafka.server.KafkaServer)
+[2018-09-20 15:32:36,553] WARN No meta.properties file under dir C:\Kafka\kafka_2.11-0.11.0.1\KData\log1\meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2018-09-20 15:32:36,631] INFO [ThrottledRequestReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2018-09-20 15:32:36,631] INFO [ThrottledRequestReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2018-09-20 15:32:36,631] INFO [ThrottledRequestReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2018-09-20 15:32:36,693] INFO Log directory 'C:\Kafka\kafka_2.11-0.11.0.1\KData\log1' not found, creating it. (kafka.log.LogManager)
+[2018-09-20 15:32:36,709] INFO Loading logs. (kafka.log.LogManager)
+[2018-09-20 15:32:36,725] INFO Logs loading complete in 16 ms. (kafka.log.LogManager)
+[2018-09-20 15:32:36,849] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2018-09-20 15:32:36,849] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2018-09-20 15:32:36,912] INFO Awaiting socket connections on 0.0.0.0:9091. (kafka.network.Acceptor)
+[2018-09-20 15:32:36,927] INFO [Socket Server on Broker 1], Started 1 acceptor threads (kafka.network.SocketServer)
+[2018-09-20 15:32:36,943] INFO [ExpirationReaper-1-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-09-20 15:32:36,943] INFO [ExpirationReaper-1-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-09-20 15:32:36,959] INFO [ExpirationReaper-1-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-09-20 15:32:37,037] INFO [ExpirationReaper-1-topic]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-09-20 15:32:37,052] INFO Creating /controller (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2018-09-20 15:32:37,068] INFO [ExpirationReaper-1-Heartbeat]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-09-20 15:32:37,068] INFO [ExpirationReaper-1-Rebalance]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-09-20 15:32:37,099] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2018-09-20 15:32:37,115] INFO Got user-level KeeperException when processing sessionid:0x165f65cf9b20001 type:setData cxid:0x28 zxid:0x17 txntype:-1 reqpath:n/a Error Path:/controller_epoch Error:KeeperErrorCode = NoNode for /controller_epoch (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 15:32:37,115] INFO [GroupCoordinator 1]: Starting up. (kafka.coordinator.group.GroupCoordinator)
+[2018-09-20 15:32:37,130] INFO [GroupCoordinator 1]: Startup complete. (kafka.coordinator.group.GroupCoordinator)
+[2018-09-20 15:32:37,146] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2018-09-20 15:32:37,177] INFO [ProducerId Manager 1]: Acquired new producerId block (brokerId:1,blockStartProducerId:0,blockEndProducerId:999) by writing to Zk with path version 1 (kafka.coordinator.transaction.ProducerIdManager)
+[2018-09-20 15:32:37,239] INFO [Transaction Coordinator 1]: Starting up. (kafka.coordinator.transaction.TransactionCoordinator)
+[2018-09-20 15:32:37,239] INFO [Transaction Marker Channel Manager 1]: Starting (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2018-09-20 15:32:37,239] INFO [Transaction Coordinator 1]: Startup complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2018-09-20 15:32:37,302] INFO Will not load MX4J, mx4j-tools.jar is not in the classpath (kafka.utils.Mx4jLoader$)
+[2018-09-20 15:32:37,333] INFO Got user-level KeeperException when processing sessionid:0x165f65cf9b20001 type:delete cxid:0x3f zxid:0x1a txntype:-1 reqpath:n/a Error Path:/admin/preferred_replica_election Error:KeeperErrorCode = NoNode for /admin/preferred_replica_election (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 15:32:37,380] INFO Creating /brokers/ids/1 (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2018-09-20 15:32:37,380] INFO Got user-level KeeperException when processing sessionid:0x165f65cf9b20001 type:create cxid:0x46 zxid:0x1b txntype:-1 reqpath:n/a Error Path:/brokers Error:KeeperErrorCode = NodeExists for /brokers (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 15:32:37,380] INFO Got user-level KeeperException when processing sessionid:0x165f65cf9b20001 type:create cxid:0x47 zxid:0x1c txntype:-1 reqpath:n/a Error Path:/brokers/ids Error:KeeperErrorCode = NodeExists for /brokers/ids (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 15:32:37,395] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2018-09-20 15:32:37,411] INFO Registered broker 1 at path /brokers/ids/1 with addresses: EndPoint(tamajroy.in.ibm.com,9091,ListenerName(PLAINTEXT),PLAINTEXT) (kafka.utils.ZkUtils)
+[2018-09-20 15:32:37,411] WARN No meta.properties file under dir C:\Kafka\kafka_2.11-0.11.0.1\KData\log1\meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2018-09-20 15:32:37,458] INFO Kafka version : 0.11.0.1 (org.apache.kafka.common.utils.AppInfoParser)
+[2018-09-20 15:32:37,458] INFO Kafka commitId : c2a0d5f9b1f45bf5 (org.apache.kafka.common.utils.AppInfoParser)
+[2018-09-20 15:32:37,473] INFO [Kafka Server 1], started (kafka.server.KafkaServer)
+[2018-09-20 15:35:59,439] WARN Exception causing close of session 0x165f65cf9b20000 due to java.io.IOException: An existing connection was forcibly closed by the remote host (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 15:35:59,439] INFO Closed socket connection for client /127.0.0.1:56858 which had sessionid 0x165f65cf9b20000 (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 15:36:27,009] INFO Expiring session 0x165f65cf9b20000, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 15:36:27,009] INFO Processed session termination for sessionid: 0x165f65cf9b20000 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 15:36:33,564] INFO Accepted socket connection from /127.0.0.1:56922 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-09-20 15:36:33,579] INFO Client attempting to establish new session at /127.0.0.1:56922 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 15:36:33,595] INFO Established session 0x165f65cf9b20002 with negotiated timeout 30000 for client /127.0.0.1:56922 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 15:56:12,763] INFO Accepted socket connection from /127.0.0.1:56992 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-09-20 15:56:12,763] INFO Client attempting to establish new session at /127.0.0.1:56992 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 15:56:12,779] INFO Established session 0x165f65cf9b20003 with negotiated timeout 30000 for client /127.0.0.1:56992 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 15:56:12,966] INFO Got user-level KeeperException when processing sessionid:0x165f65cf9b20003 type:setData cxid:0x4 zxid:0x21 txntype:-1 reqpath:n/a Error Path:/config/topics/testA Error:KeeperErrorCode = NoNode for /config/topics/testA (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 15:56:12,982] INFO Got user-level KeeperException when processing sessionid:0x165f65cf9b20003 type:create cxid:0x6 zxid:0x22 txntype:-1 reqpath:n/a Error Path:/config/topics Error:KeeperErrorCode = NodeExists for /config/topics (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 15:56:13,013] INFO Processed session termination for sessionid: 0x165f65cf9b20003 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 15:56:13,013] INFO Closed socket connection for client /127.0.0.1:56992 which had sessionid 0x165f65cf9b20003 (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 15:56:13,044] INFO Got user-level KeeperException when processing sessionid:0x165f65cf9b20001 type:create cxid:0x52 zxid:0x26 txntype:-1 reqpath:n/a Error Path:/brokers/topics/testA/partitions/0 Error:KeeperErrorCode = NoNode for /brokers/topics/testA/partitions/0 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 15:56:13,044] INFO Got user-level KeeperException when processing sessionid:0x165f65cf9b20001 type:create cxid:0x53 zxid:0x27 txntype:-1 reqpath:n/a Error Path:/brokers/topics/testA/partitions Error:KeeperErrorCode = NoNode for /brokers/topics/testA/partitions (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 16:04:59,801] INFO Accepted socket connection from /127.0.0.1:57033 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-09-20 16:04:59,816] INFO Client attempting to establish new session at /127.0.0.1:57033 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 16:04:59,816] INFO Established session 0x165f65cf9b20004 with negotiated timeout 30000 for client /127.0.0.1:57033 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 16:04:59,847] INFO Accepted socket connection from /127.0.0.1:57036 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-09-20 16:04:59,847] INFO Client attempting to establish new session at /127.0.0.1:57036 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 16:04:59,863] INFO Established session 0x165f65cf9b20005 with negotiated timeout 30000 for client /127.0.0.1:57036 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 16:04:59,879] INFO Accepted socket connection from /127.0.0.1:57039 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-09-20 16:04:59,879] INFO Client attempting to establish new session at /127.0.0.1:57039 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 16:04:59,879] INFO Established session 0x165f65cf9b20006 with negotiated timeout 30000 for client /127.0.0.1:57039 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 16:05:00,019] INFO Accepted socket connection from /127.0.0.1:57042 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-09-20 16:05:00,019] INFO Client attempting to establish new session at /127.0.0.1:57042 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 16:05:00,019] INFO Established session 0x165f65cf9b20007 with negotiated timeout 6000 for client /127.0.0.1:57042 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 16:05:00,128] INFO Got user-level KeeperException when processing sessionid:0x165f65cf9b20007 type:create cxid:0x2 zxid:0x2f txntype:-1 reqpath:n/a Error Path:/consumers Error:KeeperErrorCode = NodeExists for /consumers (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 16:05:00,471] INFO Got user-level KeeperException when processing sessionid:0x165f65cf9b20007 type:create cxid:0x19 zxid:0x33 txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-9833/owners/testA Error:KeeperErrorCode = NoNode for /consumers/console-consumer-9833/owners/testA (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 16:05:00,487] INFO Got user-level KeeperException when processing sessionid:0x165f65cf9b20007 type:create cxid:0x1a zxid:0x34 txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-9833/owners Error:KeeperErrorCode = NoNode for /consumers/console-consumer-9833/owners (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 17:37:47,531] INFO Expiring session 0x165f65cf9b20001, timeout of 6000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:37:48,210] WARN caught end of stream exception (org.apache.zookeeper.server.NIOServerCnxn)
+EndOfStreamException: Unable to read additional data from client sessionid 0x165f65cf9b20002, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:239)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+[2018-09-20 17:37:49,260] INFO Expiring session 0x165f65cf9b20007, timeout of 6000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:37:49,291] INFO Closed socket connection for client /127.0.0.1:56922 which had sessionid 0x165f65cf9b20002 (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 17:37:49,409] WARN caught end of stream exception (org.apache.zookeeper.server.NIOServerCnxn)
+EndOfStreamException: Unable to read additional data from client sessionid 0x165f65cf9b20006, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:239)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+[2018-09-20 17:37:49,322] INFO Expiring session 0x165f65cf9b20002, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:37:49,569] INFO Closed socket connection for client /127.0.0.1:57039 which had sessionid 0x165f65cf9b20006 (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 17:37:49,572] INFO Expiring session 0x165f65cf9b20004, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:37:49,573] WARN caught end of stream exception (org.apache.zookeeper.server.NIOServerCnxn)
+EndOfStreamException: Unable to read additional data from client sessionid 0x165f65cf9b20004, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:239)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+[2018-09-20 17:37:49,576] INFO Expiring session 0x165f65cf9b20006, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:37:49,581] INFO Closed socket connection for client /127.0.0.1:57033 which had sessionid 0x165f65cf9b20004 (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 17:37:49,582] INFO Expiring session 0x165f65cf9b20005, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:37:49,582] WARN caught end of stream exception (org.apache.zookeeper.server.NIOServerCnxn)
+EndOfStreamException: Unable to read additional data from client sessionid 0x165f65cf9b20005, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:239)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+[2018-09-20 17:37:49,583] INFO Processed session termination for sessionid: 0x165f65cf9b20001 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 17:37:49,623] INFO Closed socket connection for client /127.0.0.1:57036 which had sessionid 0x165f65cf9b20005 (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 17:37:49,623] INFO Processed session termination for sessionid: 0x165f65cf9b20007 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 17:37:49,624] WARN caught end of stream exception (org.apache.zookeeper.server.NIOServerCnxn)
+EndOfStreamException: Unable to read additional data from client sessionid 0x165f65cf9b20007, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:239)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+[2018-09-20 17:37:49,629] INFO Closed socket connection for client /127.0.0.1:57042 which had sessionid 0x165f65cf9b20007 (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 17:37:49,625] INFO Processed session termination for sessionid: 0x165f65cf9b20002 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 17:37:49,632] INFO Processed session termination for sessionid: 0x165f65cf9b20004 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 17:37:49,636] INFO Processed session termination for sessionid: 0x165f65cf9b20006 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 17:37:49,637] INFO Processed session termination for sessionid: 0x165f65cf9b20005 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 17:37:49,747] INFO Closed socket connection for client /127.0.0.1:56892 which had sessionid 0x165f65cf9b20001 (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 17:37:50,134] INFO Accepted socket connection from /127.0.0.1:50056 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-09-20 17:37:50,161] INFO Client attempting to renew session 0x165f65cf9b20002 at /127.0.0.1:50056 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:37:50,164] INFO Invalid session 0x165f65cf9b20002 for client /127.0.0.1:50056, probably expired (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:37:50,271] INFO Closed socket connection for client /127.0.0.1:50056 which had sessionid 0x165f65cf9b20002 (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 17:37:50,595] INFO Accepted socket connection from /127.0.0.1:50059 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-09-20 17:37:50,611] INFO Client attempting to renew session 0x165f65cf9b20005 at /127.0.0.1:50059 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:37:50,627] INFO Invalid session 0x165f65cf9b20005 for client /127.0.0.1:50059, probably expired (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:37:50,627] INFO Closed socket connection for client /127.0.0.1:50059 which had sessionid 0x165f65cf9b20005 (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 17:37:50,720] INFO Accepted socket connection from /127.0.0.1:50062 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-09-20 17:37:50,720] INFO Client attempting to establish new session at /127.0.0.1:50062 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:37:50,736] INFO Established session 0x165f65cf9b20008 with negotiated timeout 30000 for client /127.0.0.1:50062 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:37:50,907] INFO Accepted socket connection from /127.0.0.1:50065 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-09-20 17:37:50,907] INFO Client attempting to renew session 0x165f65cf9b20004 at /127.0.0.1:50065 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:37:50,923] INFO Invalid session 0x165f65cf9b20004 for client /127.0.0.1:50065, probably expired (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:37:50,923] INFO Closed socket connection for client /127.0.0.1:50065 which had sessionid 0x165f65cf9b20004 (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 17:37:50,954] INFO Accepted socket connection from /127.0.0.1:50068 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-09-20 17:37:50,970] INFO Client attempting to renew session 0x165f65cf9b20007 at /127.0.0.1:50068 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:37:50,970] INFO Invalid session 0x165f65cf9b20007 for client /127.0.0.1:50068, probably expired (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:37:50,970] INFO Closed socket connection for client /127.0.0.1:50068 which had sessionid 0x165f65cf9b20007 (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 17:37:51,017] INFO Accepted socket connection from /127.0.0.1:50071 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-09-20 17:37:51,017] INFO Client attempting to establish new session at /127.0.0.1:50071 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:37:51,017] INFO Accepted socket connection from /127.0.0.1:50073 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-09-20 17:37:51,032] INFO Client attempting to establish new session at /127.0.0.1:50073 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:37:51,032] INFO Established session 0x165f65cf9b20009 with negotiated timeout 30000 for client /127.0.0.1:50071 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:37:51,032] INFO Established session 0x165f65cf9b2000a with negotiated timeout 6000 for client /127.0.0.1:50073 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:37:51,048] INFO Got user-level KeeperException when processing sessionid:0x165f65cf9b2000a type:create cxid:0x1 zxid:0x41 txntype:-1 reqpath:n/a Error Path:/consumers Error:KeeperErrorCode = NodeExists for /consumers (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 17:37:51,048] INFO Got user-level KeeperException when processing sessionid:0x165f65cf9b2000a type:create cxid:0x2 zxid:0x42 txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-9833 Error:KeeperErrorCode = NodeExists for /consumers/console-consumer-9833 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 17:37:51,063] INFO Got user-level KeeperException when processing sessionid:0x165f65cf9b2000a type:create cxid:0x3 zxid:0x43 txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-9833/ids Error:KeeperErrorCode = NodeExists for /consumers/console-consumer-9833/ids (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 17:37:51,344] INFO Accepted socket connection from /127.0.0.1:50078 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-09-20 17:37:51,344] INFO Client attempting to renew session 0x165f65cf9b20006 at /127.0.0.1:50078 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:37:51,360] INFO Invalid session 0x165f65cf9b20006 for client /127.0.0.1:50078, probably expired (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:37:51,360] INFO Closed socket connection for client /127.0.0.1:50078 which had sessionid 0x165f65cf9b20006 (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 17:37:51,485] INFO Accepted socket connection from /127.0.0.1:50081 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-09-20 17:37:51,485] INFO Client attempting to establish new session at /127.0.0.1:50081 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:37:51,516] INFO Established session 0x165f65cf9b2000b with negotiated timeout 30000 for client /127.0.0.1:50081 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:55:55,531] INFO Expiring session 0x165f65cf9b2000a, timeout of 6000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:55:55,689] INFO Expiring session 0x165f65cf9b20009, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:55:55,689] INFO Expiring session 0x165f65cf9b2000b, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:55:55,719] INFO Expiring session 0x165f65cf9b20008, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:55:55,722] INFO Processed session termination for sessionid: 0x165f65cf9b2000a (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 17:55:55,727] INFO Processed session termination for sessionid: 0x165f65cf9b20009 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 17:55:55,858] INFO Processed session termination for sessionid: 0x165f65cf9b2000b (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 17:55:56,728] INFO Processed session termination for sessionid: 0x165f65cf9b20008 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 17:55:55,732] WARN caught end of stream exception (org.apache.zookeeper.server.NIOServerCnxn)
+EndOfStreamException: Unable to read additional data from client sessionid 0x165f65cf9b2000b, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:239)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+[2018-09-20 17:55:56,814] INFO Closed socket connection for client /127.0.0.1:50081 which had sessionid 0x165f65cf9b2000b (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 17:55:56,818] WARN caught end of stream exception (org.apache.zookeeper.server.NIOServerCnxn)
+EndOfStreamException: Unable to read additional data from client sessionid 0x165f65cf9b2000a, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:239)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+[2018-09-20 17:55:56,837] INFO Closed socket connection for client /127.0.0.1:50073 which had sessionid 0x165f65cf9b2000a (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 17:55:56,849] WARN caught end of stream exception (org.apache.zookeeper.server.NIOServerCnxn)
+EndOfStreamException: Unable to read additional data from client sessionid 0x165f65cf9b20009, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:239)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+[2018-09-20 17:55:56,854] INFO Closed socket connection for client /127.0.0.1:50071 which had sessionid 0x165f65cf9b20009 (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 17:55:56,859] WARN caught end of stream exception (org.apache.zookeeper.server.NIOServerCnxn)
+EndOfStreamException: Unable to read additional data from client sessionid 0x165f65cf9b20008, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:239)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:745)
+[2018-09-20 17:55:56,884] INFO Closed socket connection for client /127.0.0.1:50062 which had sessionid 0x165f65cf9b20008 (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 17:55:57,140] WARN fsync-ing the write ahead log in SyncThread:0 took 1415ms which will adversely effect operation latency. See the ZooKeeper troubleshooting guide (org.apache.zookeeper.server.persistence.FileTxnLog)
+[2018-09-20 17:55:57,203] INFO Accepted socket connection from /127.0.0.1:50120 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-09-20 17:55:57,203] INFO Client attempting to renew session 0x165f65cf9b2000b at /127.0.0.1:50120 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:55:57,203] INFO Invalid session 0x165f65cf9b2000b for client /127.0.0.1:50120, probably expired (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:55:57,203] INFO Closed socket connection for client /127.0.0.1:50120 which had sessionid 0x165f65cf9b2000b (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 17:55:57,281] INFO Accepted socket connection from /127.0.0.1:50123 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-09-20 17:55:57,281] INFO Client attempting to establish new session at /127.0.0.1:50123 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:55:57,296] INFO Established session 0x165f65cf9b2000c with negotiated timeout 30000 for client /127.0.0.1:50123 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:55:57,390] INFO Accepted socket connection from /127.0.0.1:50124 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-09-20 17:55:57,390] INFO Client attempting to renew session 0x165f65cf9b20009 at /127.0.0.1:50124 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:55:57,390] INFO Invalid session 0x165f65cf9b20009 for client /127.0.0.1:50124, probably expired (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:55:57,390] INFO Closed socket connection for client /127.0.0.1:50124 which had sessionid 0x165f65cf9b20009 (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 17:55:57,421] INFO Accepted socket connection from /127.0.0.1:50127 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-09-20 17:55:57,421] INFO Client attempting to establish new session at /127.0.0.1:50127 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:55:57,452] INFO Established session 0x165f65cf9b2000d with negotiated timeout 30000 for client /127.0.0.1:50127 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:55:57,530] INFO Accepted socket connection from /127.0.0.1:50128 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-09-20 17:55:57,530] INFO Client attempting to renew session 0x165f65cf9b2000a at /127.0.0.1:50128 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:55:57,530] INFO Invalid session 0x165f65cf9b2000a for client /127.0.0.1:50128, probably expired (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:55:57,546] INFO Closed socket connection for client /127.0.0.1:50128 which had sessionid 0x165f65cf9b2000a (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 17:55:57,577] INFO Accepted socket connection from /127.0.0.1:50131 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-09-20 17:55:57,577] INFO Client attempting to establish new session at /127.0.0.1:50131 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:55:57,593] INFO Established session 0x165f65cf9b2000e with negotiated timeout 6000 for client /127.0.0.1:50131 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:55:57,593] INFO Got user-level KeeperException when processing sessionid:0x165f65cf9b2000e type:create cxid:0x1 zxid:0x4d txntype:-1 reqpath:n/a Error Path:/consumers Error:KeeperErrorCode = NodeExists for /consumers (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 17:55:57,593] INFO Got user-level KeeperException when processing sessionid:0x165f65cf9b2000e type:create cxid:0x2 zxid:0x4e txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-9833 Error:KeeperErrorCode = NodeExists for /consumers/console-consumer-9833 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 17:55:57,608] INFO Got user-level KeeperException when processing sessionid:0x165f65cf9b2000e type:create cxid:0x3 zxid:0x4f txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-9833/ids Error:KeeperErrorCode = NodeExists for /consumers/console-consumer-9833/ids (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-09-20 17:55:57,951] INFO Accepted socket connection from /127.0.0.1:50132 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-09-20 17:55:57,951] INFO Client attempting to renew session 0x165f65cf9b20008 at /127.0.0.1:50132 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:55:57,951] INFO Invalid session 0x165f65cf9b20008 for client /127.0.0.1:50132, probably expired (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:55:57,951] INFO Closed socket connection for client /127.0.0.1:50132 which had sessionid 0x165f65cf9b20008 (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 17:55:57,967] INFO Accepted socket connection from /127.0.0.1:50135 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-09-20 17:55:57,967] INFO Client attempting to establish new session at /127.0.0.1:50135 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:55:57,983] INFO Established session 0x165f65cf9b2000f with negotiated timeout 30000 for client /127.0.0.1:50135 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-09-20 17:56:11,860] WARN Exception causing close of session 0x165f65cf9b2000c due to java.io.IOException: An existing connection was forcibly closed by the remote host (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 17:56:11,860] INFO Closed socket connection for client /127.0.0.1:50123 which had sessionid 0x165f65cf9b2000c (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 17:56:11,876] WARN Exception causing close of session 0x165f65cf9b2000e due to java.io.IOException: An existing connection was forcibly closed by the remote host (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 17:56:11,876] INFO Closed socket connection for client /127.0.0.1:50131 which had sessionid 0x165f65cf9b2000e (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 17:56:11,907] WARN Exception causing close of session 0x165f65cf9b2000d due to java.io.IOException: An existing connection was forcibly closed by the remote host (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 17:56:11,907] INFO Closed socket connection for client /127.0.0.1:50127 which had sessionid 0x165f65cf9b2000d (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 17:56:11,907] WARN Exception causing close of session 0x165f65cf9b2000f due to java.io.IOException: An existing connection was forcibly closed by the remote host (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-09-20 17:56:11,923] INFO Closed socket connection for client /127.0.0.1:50135 which had sessionid 0x165f65cf9b2000f (org.apache.zookeeper.server.NIOServerCnxn)
